@@ -1,0 +1,199 @@
+.footer {
+    color: #fff;
+    width: 100%;
+    padding-top: 65px;
+}
+
+.footerWrp {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 150px;
+    justify-content: space-between;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.footerWrp>div:nth-child(2) {
+    margin-left: 60px;
+}
+
+.footerWrp>div:nth-child(3) {
+    margin-left: 30px;
+}
+
+
+.rightArrowIcons {
+    margin-right: 10px;
+}
+
+.footerhadering {
+    font-size: 22px;
+}
+
+.foooterLogo {
+    margin-top: -20px;
+    margin-bottom: 25px;
+    width: 230px;
+    height: auto;
+}
+
+.ul {
+    margin-top: 25px;
+}
+
+.ul>li>a {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.addressphoneminaWrp {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+}
+
+.addressphoneminaWrp>a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(207, 207, 207);
+}
+
+.addressOcons {
+    font-size: 20px;
+}
+
+.footerWrp>div>ul {
+    list-style: none;
+}
+
+.footerWrp>div>ul>li {
+    padding: 5px 0px;
+}
+
+.footerWrp>div>ul>li>a {
+    color: rgb(207, 207, 207);
+}
+
+.footerWrp>div>ul>li>a:hover {
+    color: #fff;
+}
+
+.Connect {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+
+.IWrp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: .3s;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #659e0f;
+    background: #fff;
+    padding: 4px;
+
+}
+
+.contaceIcons {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50%;
+}
+
+.IWrp:hover {
+    background: #fff;
+    color: #659e0f;
+}
+
+
+
+.copyRight {
+    border-top: 2px solid #204d04;
+    grid-column: 1/-1;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: rgb(191, 191, 191);
+}
+
+
+@media (max-width:990px) {
+    .footerWrp {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+
+    }
+
+    .footerWrp>div:nth-child(2) {
+        margin-left: 0px;
+    }
+
+    .footerWrp>div:nth-child(3) {
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .footerWrp {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .footerWrp>div:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    .Connect {
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .Subscribe {
+        width: 100%;
+    }
+
+    .foooterLogo {
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: -30px;
+        display: flex;
+        justify-self: center;
+    }
+
+
+}
+
+@media (max-width:330px) {
+    .Connect>div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contaceIcons {
+        width: 23px;
+        height: 23px;
+        padding: 1px;
+    }
+}

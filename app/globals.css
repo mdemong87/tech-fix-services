@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #143500;
+  --primary-color-two: #b57912;
+  --primary-color-three: #e4edd9;
+}
+
+
+body {
+  overflow-x: hidden;
+  background: var(--primary-color-three);
+  background: var(--primary-color-three);
+}
+
+h1,
+h2,
+h3,
+h,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  /* Remove default styling in Safari */
+  -moz-appearance: none;
+  /* Remove default styling in Firefox */
+  appearance: none;
+  /* Remove default styling */
+}
+
+
+/* scrollber */
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+select {
+  -webkit-appearance: none;
+  /* Remove default styling in Safari */
+  -moz-appearance: none;
+  /* Remove default styling in Firefox */
+  appearance: none;
+  /* Remove default styling */
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--primary-color-two) !important;
+}
+
+
+
+.swiper-pagination-bullet-active {
+  background: var(--primary-color-two) !important;
+}
+
+
+
+@layer utilities {
+
+  .pbg {
+    background-color: var(--primary-color);
+  }
+
+  .pbg2 {
+    background-color: var(--primary-color-two);
+  }
+
+  .pbg3 {
+    background-color: var(--primary-color-three);
+  }
+
+  .pcl {
+    color: var(--primary-color);
+  }
+
+  .pcl2 {
+    color: var(--primary-color-two);
+  }
+
+  .pcl3 {
+    color: var(--primary-color-three);
+  }
+
+  .tran .bannartransparentBg {
+    background: linear-gradient(rgba(0, 0, 0, 0.465), rgba(0, 0, 0, 0.465));
+  }
+
+  .bannartransparentBgforActor {
+    background: rgba(0, 0, 0, 0.838);
+  }
+
+  .bannerSlideImage {
+    height: 100vh !important;
+    overflow: hidden !important;
+  }
+
+  .bannartransparentBg {
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.345));
+  }
+
+
+
+
+
+  .stickyheader {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 173px !important;
+  }
+
+
+}

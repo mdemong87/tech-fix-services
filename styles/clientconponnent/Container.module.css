@@ -1,0 +1,11 @@
+.containerWrper {
+    max-width: 1400px;
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width:768px) {
+    .containerWrper {
+        width: 95%;
+    }
+}
