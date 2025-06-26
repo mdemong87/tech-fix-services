@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
                     <div className="col-span-6 md:col-span-4">
                         <h2 className="text-4xl font-bold">Why Choose Us for Your Appliance Repairs?</h2>
                         <p className="py-8 text-lg">
-                            At Appliances Repair Qatar, we understand how frustrating a broken appliance can be. That's why we're here to fix your washing machines and refrigerators quickly, affordably, and reliably.
+                            At Appliances Repair Qatar, we understand how frustrating a broken appliance can be. That&apos;s why we&apos;re here to fix your washing machines and refrigerators quickly, affordably, and reliably.
                         </p>
                         <div className="grid grid-cols-2 gap-5 mt-6">
                             <div className="col-span-1">

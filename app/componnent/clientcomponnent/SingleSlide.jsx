@@ -13,7 +13,7 @@ const SingleSlide = ({ image, index }) => {
                         24/7 Home Appliance Repair in Doha, Qatar</h1>
                     <p className='text-md  text-gray-200'>Fast, reliable, and budget-friendly appliance repair services designed for your convenience! </p>
                     <p className='text-md text-gray-200 mt-2'>
-                        Don't let a broken appliance ruin your day. Get it fixed today with our professional technicians.
+                        Don&apos;t let a broken appliance ruin your day. Get it fixed today with our professional technicians.
                     </p>
                     <div className='mt-6 md:mt-12'>
                         <Link href={'/watch'} className='pbg2 py-1 px-3 md:py-3 md:px-5 rounded-md cursor-pointer text-white text-lg font-semibold text-center'>Request for Service</Link>
