@@ -4,6 +4,12 @@
     margin: auto;
 }
 
+@media (max-width:1024px) {
+    .containerWrper {
+        width: 94%;
+    }
+}
+
 @media (max-width:768px) {
     .containerWrper {
         width: 95%;

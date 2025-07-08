@@ -12,17 +12,17 @@ const NavberWrper = () => {
 
 
     return (
-        <div className="">
+        <div className=" w-full">
             <div className="hidden md:block">
                 <Navber setshownav={setshownav} />
             </div>
-            <div className="flex w-full jutify-end items-center md:hidden">
+            <div className="flex w-full justify-end items-center md:hidden">
                 <HiMiniBars3BottomRight onClick={() => setshownav(true)} className="text-3xl text-white cursor-pointer" />
             </div>
 
             {
                 shownav && <div className="block md:hidden absolute w-screen bannartransparentBg h-screen top-0 left-0 flex">
-                    <div className="pbg w-[400px] py-4 px-4">
+                    <div className="bg-[#000000] w-[400px] py-4 px-4">
                         <div className="flex justify-end pb-12">
                             <div onClick={() => setshownav(false)} className="pbg2 p-2 rounded-md cursor-pointer hover:rotate-180 transition duration-500">
                                 <RxCross2 className="text-white text-2xl" />

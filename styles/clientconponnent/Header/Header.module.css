@@ -1,9 +1,11 @@
 .headerWrper {
+    height: 90px;
     display: grid;
     padding: 0px 0px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "left left left right right right right right right right right right";
+    align-items: center;
 }
 
 .headerWrper>div {
@@ -22,6 +24,7 @@
     gap: 30px;
     align-items: center;
     justify-content: flex-end;
+    width: 100%;
 }
 
 

@@ -10,12 +10,12 @@ const Header = async () => {
 
 
     return (
-        <header className="w-screen bg-[#000000] text-white fixed py-1 z-50">
+        <header className="w-screen bg-[#000000] text-white fixed py-1 z-50 h-fit">
             <Container>
                 <div className={styles.headerWrper}>
                     <div className={styles.left}>
                         <Link href={'/'} className="">
-                            <Image className='w-[220px] h-[75px] md:h-[90px]' width={1000} height={1000} src={logo} alt="Logo" />
+                            <Image className='w-[220px] h-[75px] md:h-[80px]' width={1000} height={1000} src={logo} alt="Logo" />
                         </Link>
                     </div>
                     <div className={styles.right}>

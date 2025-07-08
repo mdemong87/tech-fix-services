@@ -4,6 +4,7 @@
 import { useStore } from "@/lib/store";
 import Link from "next/link";
 import { useState } from "react";
+import RequestForServiceBtn from "../RequestForServiceBtn";
 
 
 const Navber = ({ setshownav }) => {
@@ -13,12 +14,15 @@ const Navber = ({ setshownav }) => {
 
 
     return (
-        <nav className='flex flex-col md:flex-row items-center gap-5'>
-            <Link onClick={() => { setshownav(false) }} className='text-base font-medium text-white' href={"/"}>Home</Link>
-            <Link onClick={() => { setshownav(false) }} className='text-base font-medium text-white' href={"/portfolio"}>About Us</Link>
-            <Link onClick={() => { setshownav(false) }} className='text-base font-medium text-white' href={"/booking"}>Services</Link>
-            <Link onClick={() => { setshownav(false) }} className='text-base font-medium text-white' href={"/booking"}>Blogs</Link>
-            <Link onClick={() => { setshownav(false) }} className='pbg2 rounded-md text-base font-medium p-3 text-white' href={"/watch"}>Request for Service</Link>
+        <nav className='flex flex-col md:flex-row items-center justi gap-5 md:justify-between'>
+
+            <div className="flex flex-col md:flex-row items-center gap-5 lg:gap-8 md:pl-40">
+                <Link onClick={() => { setshownav(false) }} className='text-lg font-medium text-white' href={"/"}>Home</Link>
+                <Link onClick={() => { setshownav(false) }} className='text-lg font-medium text-white' href={"/portfolio"}>About Us</Link>
+                <Link onClick={() => { setshownav(false) }} className='text-lg font-medium text-white' href={"/booking"}>Services</Link>
+                <Link onClick={() => { setshownav(false) }} className='text-lg font-medium text-white' href={"/booking"}>Blogs</Link>
+            </div>
+            <RequestForServiceBtn />
 
         </nav>
     )
